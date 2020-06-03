@@ -1,0 +1,16 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\呵呵\Desktop\考核实验代码_红外控制计算器\test.uvproj
+Project File Date:  05/28/2020
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+compiling lcd.c...
+linking...
+Program Size: data=26.0 xdata=0 code=2580
+creating hex file from "test"...
+"test" - 0 Error(s), 0 Warning(s).

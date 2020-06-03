@@ -1,0 +1,87 @@
+C51 COMPILER V9.00   LCD                                                                   05/29/2020 09:03:46 PAGE 1   
+
+
+C51 COMPILER V9.00, COMPILATION OF MODULE LCD
+OBJECT MODULE PLACED IN lcd.OBJ
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE lcd.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include "lcd.h"
+   2          
+   3          //在51单片机中写入1ms下的延时程序
+   4          void Lcd1602_Delay1ms(uint c)
+   5          {
+   6   1              uchar a,b;
+   7   1              for(; c>0; c--)
+   8   1              {
+   9   2                      for(b=199; b>0; b--)
+  10   2                      {
+  11   3                              for(a=1; a>0; a--);
+  12   3                      }
+  13   2              }
+  14   1      }
+  15          
+  16          //在Lcd1602中写入8位的指令，命令
+  17          void Lcd1602_WriteCom(uchar com)
+  18          {
+  19   1              LCD1602_E = 0;
+  20   1              LCD1602_RS = 0;
+  21   1              LCD1602_RW = 0;  //让芯片使能，调节模式为指令写入模式
+  22   1      
+  23   1      
+  24   1              LCD1602_DATA_PORT = com;  //输入指令
+  25   1              Lcd1602_Delay1ms(1);
+  26   1      
+  27   1              LCD1602_E = 1;                  //写入时序
+  28   1              Lcd1602_Delay1ms(5);
+  29   1              LCD1602_E = 0;
+  30   1      }
+  31          
+  32          //在Lcd1602中写入8位的数据
+  33          void Lcd1602_WriteData(uchar dat)
+  34          {
+  35   1              LCD1602_E = 0; //使能清零
+  36   1              LCD1602_RS = 1;
+  37   1              LCD1602_RW = 0;
+  38   1      
+  39   1              LCD1602_DATA_PORT = dat;
+  40   1              Lcd1602_Delay1ms(1);
+  41   1      
+  42   1              LCD1602_E = 1;     //写入时许
+  43   1              Lcd1602_Delay1ms(5);
+  44   1              LCD1602_E = 0;
+  45   1      
+  46   1      }
+  47          
+  48          //初始化，lcd1602界面函数
+  49          void LcdInit()
+  50          {
+  51   1              Lcd1602_WriteCom(0x38);
+  52   1              Lcd1602_Delay1ms(5);
+  53   1              Lcd1602_WriteCom(0x38);
+  54   1              Lcd1602_Delay1ms(5);
+  55   1              Lcd1602_WriteCom(0x38);
+C51 COMPILER V9.00   LCD                                                                   05/29/2020 09:03:46 PAGE 2   
+
+  56   1              Lcd1602_Delay1ms(5);     //确保显示初始化成功 ，显示行数，位数，点阵值
+  57   1      
+  58   1              Lcd1602_WriteCom(0x0c);//开显示，不显示光标
+  59   1              Lcd1602_WriteCom(0x06);//写一个指针加1
+  60   1              Lcd1602_WriteCom(0x01);//清屏
+  61   1              Lcd1602_WriteCom(0x80);//设置数据指针起点
+  62   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    106    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
