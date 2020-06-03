@@ -1,2 +1,3 @@
 # 51-microcontroller_InfraredCalcCulator
 51单片机红外线控制计算器
+这是keil4工程文件，包括了hex文件
