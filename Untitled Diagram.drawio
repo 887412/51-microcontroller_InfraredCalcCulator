@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-25T08:18:25.509Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="amxEZDq7yzHY-j51UfcE" version="15.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-25T08:26:58.684Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="bbGxRNR64hO89FTgvqUi" version="15.3.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1607" dy="2281" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2889" dy="2291" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -320,6 +320,63 @@
         </mxCell>
         <mxCell id="pnOXPWSVjmxFKUKoBgUp-114" value="服务器第二层的网络传输对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1485" y="320" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pnOXPWSVjmxFKUKoBgUp-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pnOXPWSVjmxFKUKoBgUp-120" target="pnOXPWSVjmxFKUKoBgUp-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pnOXPWSVjmxFKUKoBgUp-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pnOXPWSVjmxFKUKoBgUp-120" target="pnOXPWSVjmxFKUKoBgUp-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pnOXPWSVjmxFKUKoBgUp-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pnOXPWSVjmxFKUKoBgUp-120" target="pnOXPWSVjmxFKUKoBgUp-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pnOXPWSVjmxFKUKoBgUp-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pnOXPWSVjmxFKUKoBgUp-120" target="pnOXPWSVjmxFKUKoBgUp-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pnOXPWSVjmxFKUKoBgUp-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pnOXPWSVjmxFKUKoBgUp-120" target="pnOXPWSVjmxFKUKoBgUp-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pnOXPWSVjmxFKUKoBgUp-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pnOXPWSVjmxFKUKoBgUp-120" target="pnOXPWSVjmxFKUKoBgUp-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pnOXPWSVjmxFKUKoBgUp-120" value="可扩展的功能：" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="220" y="1320" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pnOXPWSVjmxFKUKoBgUp-121" value="register注册中心" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pnOXPWSVjmxFKUKoBgUp-122" value="loadbalance负载均衡" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="1410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pnOXPWSVjmxFKUKoBgUp-123" value="compress压缩gzip" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pnOXPWSVjmxFKUKoBgUp-124" value="serialize序列化框架" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="1600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pnOXPWSVjmxFKUKoBgUp-125" value="集成spring框架" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="1690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pnOXPWSVjmxFKUKoBgUp-126" value="保留一个config配置中心" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="1780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pnOXPWSVjmxFKUKoBgUp-133" value="使用zookeeper来实现" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650" y="1340" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pnOXPWSVjmxFKUKoBgUp-134" value="可以实现多种负载均衡策略" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="620" y="1430" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pnOXPWSVjmxFKUKoBgUp-135" value="提供消息在序列化后传输前的压缩功能" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="605" y="1520" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pnOXPWSVjmxFKUKoBgUp-136" value="可以提供支持多种序列化框架" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="620" y="1610" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pnOXPWSVjmxFKUKoBgUp-137" value="集合spring，可以支持注解开发等" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="610" y="1710" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pnOXPWSVjmxFKUKoBgUp-138" value="提供一个统一的配置中心" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="605" y="1800" width="150" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
